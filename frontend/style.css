@@ -1,0 +1,85 @@
+body{
+    background-color:antiquewhite;
+    background-image: url("images/4.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.contenedor{
+    width: 90%;
+    height: 400px;
+    background-color:crimson;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+    border-radius: 40px;
+    border-color: chartreuse;
+    
+}
+
+.capa-uno{
+    width: 60%;
+    height: 300px;
+    float: left;
+    background-color:color-mix(in oklab, color percentage, color percentage);
+    position: relative;
+    border-radius: 40px;
+     border-color: chartreuse;
+     
+}
+
+.capa-form{
+    width: 40%;
+    height: 400px;
+    float: left;
+    background-color: rgb(9, 250, 250);
+    position: relative;
+    border-radius: 20px;
+    border-color: chartreuse;
+}
+
+.img-slider{
+   width: auto;
+   height: 80%;
+   border-radius: 20px;
+   margin-top: 5%;
+   transition: 300ms;
+   float: left;
+   position:absolute;
+   
+}
+
+.img-slider1{
+     transform: rotate(-15deg);
+     margin-left: 20%;
+}
+
+.img-slider2{
+ transform: rotate(6deg);
+     margin-left: 40%;
+}
+
+.img-slider3{
+    transform: rotate(15deg);
+     margin-left: 60%;
+}
+
+.img-slider:hover{
+    transform: rotate(0deg) scale(2,2);
+    margin-left:30%;
+    z-index:2;
+}
+
+h1{
+    color: rgba(112, 12, 179, 0.781);
+    -webkit-text-stroke-color: crimson;
+    text-shadow: 4px 4px 0px black, 4px 4px 0px, black;
+}
+p{
+    color:  crimson;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+form{
+    align-self: center;
+}
